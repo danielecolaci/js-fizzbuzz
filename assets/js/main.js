@@ -9,15 +9,15 @@ for (let i = 1; i <= 100; i++) {
     //Stampare FizzBuzz in console e in pagina
     if ((i % 3 === 0) && (i % 5 === 0)) {
         //console.log(i + 'FizzBuzz');
-        number += '<li>FizzBuzz</li>';
+        number += '<li class="fizzbuzz">FizzBuzz</li>';
     }
     else if (i % 3 === 0) {
         //console.log(i + 'Fizz');
-        number += '<li>Fizz</li>';
+        number += '<li class="fizz">Fizz</li>';
     }
     else if (i % 5 === 0) {
         //console.log(i + 'Buzz');
-        number += '<li>Buzz</li>';
+        number += '<li class="buzz">Buzz</li>';
     }
     else {
         number += `<li>${i}</li>`;
